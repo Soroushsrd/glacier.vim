@@ -16,7 +16,7 @@ A dark colorscheme for Vim/Neovim based on Ghostty's Glacier theme. This elegant
 
 ## Requirements
 
-- Vim >= 8.0 or Neovim >= 0.5.0
+- Vim >= 8.0 or Neovim >= 0.10.0
 - Terminal with true color support (`termguicolors`)
 
 ## Installation
@@ -108,4 +108,4 @@ MIT
 ## Credits
 
 - Inspired by [Ghostty's Glacier](https://github.com/mitchellh/ghostty) terminal theme
-- Created with ❤️ by [Your Name]
+- Created with ❤️ by Soroushsrd
