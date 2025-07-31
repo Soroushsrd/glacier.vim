@@ -58,7 +58,11 @@ exe "hi LineNr guifg=".s:comment." guibg=".s:bg
 exe "hi CursorLine guibg=".s:bg_darker
 exe "hi CursorLineNr guifg=".s:bright_orange." gui=bold"
 exe "hi CursorColumn guibg=".s:white
-exe "hi Cursor guifg=NONE guibg=#35a770 blend=30"
+if has('nvim')
+  exe "hi Cursor guifg=NONE guibg=#35a770 blend=30"
+else
+  exe "hi Cursor guifg=NONE guibg=#35a770"
+endif
 " Syntax highlighting
 exe "hi Comment guifg=".s:comment." gui=italic"
 exe "hi Constant guifg=".s:bright_red
