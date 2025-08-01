@@ -55,6 +55,7 @@ let g:terminal_color_15 = s:bright_white
 " basic editor colors
 exe "hi Normal guifg=".s:fg." guibg=".s:bg
 exe "hi LineNr guifg=".s:comment." guibg=".s:bg
+exe "hi EndOfBuffer guifg=".s:comment." guibg=".s:bg
 exe "hi CursorLine guibg=".s:bg_darker
 exe "hi CursorLineNr guifg=".s:bright_orange." gui=bold"
 exe "hi CursorColumn guibg=".s:white
@@ -147,4 +148,3 @@ exe "hi FileReadOnly guifg=".s:bright_red
 exe "hi FileExecutable guifg=".s:bright_green
 exe "hi FileSymlink guifg=".s:cyan
 exe "hi FileHidden guifg=".s:comment
-
